@@ -1,0 +1,10 @@
+---
+
+- name: Get Terminus
+  get_url:
+    url=https://github.com/pantheon-systems/cli/releases/download/{{ terminus_version }}/terminus.phar dest=/usr/local/bin/terminus
+  sudo: true
+
+- name: Ensure Terminus is executable
+  file: path=/usr/local/bin/terminus mode="u+x,g+x,o+x"
+  sudo: true
