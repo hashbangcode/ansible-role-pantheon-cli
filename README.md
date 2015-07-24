@@ -16,7 +16,7 @@ At the very least you need these packages installed:
 
 ## Role Variables
 
-- `terminus_version`: current default is `0.5.5`
+- `pantheon_cli_version`: current default is `0.5.5`
 
 
 ## Dependencies

@@ -2,7 +2,7 @@
 
 - name: Get Terminus
   get_url:
-    url=https://github.com/pantheon-systems/cli/releases/download/{{ terminus_version }}/terminus.phar dest=/usr/local/bin/terminus
+    url=https://github.com/pantheon-systems/cli/releases/download/{{ pantheon_cli_version }}/terminus.phar dest=/usr/local/bin/terminus
   sudo: true
 
 - name: Ensure Terminus is executable
