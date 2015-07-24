@@ -1,0 +1,23 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  author: danbohea
+  description: Pantheon CLI for Linux & OS X
+  license: MIT
+  min_ansible_version: 1.4
+  platforms:
+  - name: CentOS
+    versions:
+    - 6
+    - name: OS X
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - precise
+    - trusty
+  categories:
+    - development
+    - web
