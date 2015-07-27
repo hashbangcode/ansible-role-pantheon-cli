@@ -29,7 +29,7 @@ None.
 ```
 - hosts: servers
   roles:
-     - { role: danbohea.pantheon-cli }
+     - { role: hashbangcode.pantheon-cli }
 ```
 
 ## License
