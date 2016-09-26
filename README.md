@@ -1,5 +1,7 @@
 # Ansible Role: Pantheon CLI
 
+[![Build Status](https://travis-ci.org/hashbangcode/ansible-role-pantheon-cli.svg?branch=master)](https://travis-ci.org/hashbangcode/ansible-role-pantheon-cli)
+
 An Ansible role that installs the [Pantheon CLI](https://github.com/pantheon-systems/cli) (aka Terminus) on Linux and macOS.
 
 
