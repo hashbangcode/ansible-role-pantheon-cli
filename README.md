@@ -5,18 +5,18 @@ An Ansible role that installs the [Pantheon CLI](https://github.com/pantheon-sys
 
 ## Requirements
 
-Terminus requires PHP and curl to be installed and available on the command-line.
+Terminus requires PHP and cURL to be installed and available on the command-line.
 
 At the very least you need these packages installed:
 
-- PHP version 5.3.2 or later
+- PHP version 5.5.9 or later
 - PHP-CLI
 - PHP-CURL
 
 
 ## Role Variables
 
-- `pantheon_cli_version`: current default is `0.10.0`
+- `pantheon_cli_version`: current default is `0.13.1`
 
 
 ## Dependencies
