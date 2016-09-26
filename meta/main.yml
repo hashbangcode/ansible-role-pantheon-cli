@@ -4,18 +4,10 @@ dependencies: []
 
 galaxy_info:
   author: danbohea
-  description: Pantheon CLI for Linux & macOS
+  description: Pantheon CLI
   license: MIT
   min_ansible_version: 1.9
   platforms:
-  - name: EL
-    versions:
-    - 6
-  # In the absence of a 'macOS' platform option:
-  - name: GenericUNIX
-    versions:
-    - all
-    - any
   - name: Ubuntu
     versions:
     - trusty
