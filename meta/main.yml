@@ -11,10 +11,16 @@ galaxy_info:
   - name: EL
     versions:
     - 6
+  # In the absence of a 'macOS' platform option:
+  - name: GenericUNIX
+    versions:
+    - all
+    - any
   - name: Ubuntu
     versions:
-    - precise
     - trusty
-  categories:
+  galaxy_tags:
     - development
+    - pantheon
+    - terminus
     - web
