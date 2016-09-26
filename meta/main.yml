@@ -4,7 +4,7 @@ dependencies: []
 
 galaxy_info:
   author: danbohea
-  description: Pantheon CLI for Linux & OS X
+  description: Pantheon CLI for Linux & macOS
   license: MIT
   min_ansible_version: 1.9
   platforms:

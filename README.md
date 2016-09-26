@@ -1,6 +1,6 @@
 # Ansible Role: Pantheon CLI
 
-An Ansible role that installs the [Pantheon CLI](https://github.com/pantheon-systems/cli) (aka Terminus) on Linux and OS X.
+An Ansible role that installs the [Pantheon CLI](https://github.com/pantheon-systems/cli) (aka Terminus) on Linux and macOS.
 
 
 ## Requirements
