@@ -23,6 +23,8 @@ install:
 script:
   # Syntax check
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
+  # Run test playbook
+  - ansible-playbook tests/test.yml -i tests/inventory --connection=local
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
