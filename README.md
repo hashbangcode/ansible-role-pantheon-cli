@@ -18,7 +18,7 @@ At the very least you need these packages installed:
 
 ## Role Variables
 
-- `pantheon_cli_version`: current default is `0.13.1`
+- `pantheon_cli_version`: current default is `0.13.6`
 
 
 ## Dependencies
